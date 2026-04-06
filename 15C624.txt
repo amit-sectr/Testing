@@ -1,6 +1,6 @@
 {
     "Version": {
-        "V": "V2.12"
+        "V": "V2.15"
     },
     "Device": {
         "Name": "ESP32_Device",
@@ -21,12 +21,12 @@
     "DATA": "W/WD05/DATA"
     },
     "MQTTBACKUP": {
-    "BACKUP": "W/WD05/BACKUP"
+    "BACKUP": "W/WDO5/BACKUP"
     },
-    "MQTTOTA": {
-    "OTA": "W/WD05/OTA"
+    "SYSHB": {
+    "HB": "W/WDO5/HEARTBEAT"
     },
-   "SYSBH": {
-    "HEARTBEAT": "W/WD05/HEARTBEAT"
+    "OTA_URL": {
+    "OTABaseURL": "https://raw.githubusercontent.com/amit-sectr/SHM/refs/heads/main/JSON/ota.json"
     }
 }
