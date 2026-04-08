@@ -1,10 +1,10 @@
 {
     "Version": {
-        "V": "V1.16"
+        "V": "V2.12"
     },
     "Device": {
         "Name": "ESP32_Device",
-        "ID": "WD02"
+        "ID": "WD05"
     },
     "Wifi": {
         "SSID": "SM-0CD5-4-4G",
@@ -15,9 +15,18 @@
         "Log_Enable": true
     },
     "Github": {
-        "BaseURL": "https://raw.githubusercontent.com/sayalibhagat08/SHM_TestingRepo/refs/heads/main"
+        "BaseURL": "https://raw.githubusercontent.com/sayalibhagat08/SHM_TestingRepo/refs/heads/main/"
     },
     "MQTT": {
-    "DATA": "/SHM/SHMBOX1"
+    "DATA": "W/WD05/DATA"
+    },
+    "MQTTBACKUP": {
+    "BACKUP": "W/WD05/BACKUP"
+    },
+    "MQTTOTA": {
+    "OTA": "W/WD05/OTA"
+    },
+   "SYSBH": {
+    "HEARTBEAT": "W/WD05/HEARTBEAT"
     }
 }
